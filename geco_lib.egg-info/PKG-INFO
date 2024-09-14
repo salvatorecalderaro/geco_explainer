@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: geco_lib
+Version: 0.1.0
+Summary: GECo method to explain GNNs.
+Author: Salvatore Calderaro
+Author-email: salvatore.calderaro01@unipa.it
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: networkx
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: cdlib
+Requires-Dist: torch_geometric
+Requires-Dist: matplotlib
