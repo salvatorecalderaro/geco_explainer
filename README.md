@@ -4,7 +4,7 @@
 
 ## Installation
 
-You can install `geco_lib` via pip:
+You can install `geco-explainer` via pip:
 
 ```bash
  pip install geco-explainer
