@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='geco_lib',
+    name='geco_explainer',
     version='0.1.0',
     description='GECo method to explain GNNs.',
     author='Salvatore Calderaro',

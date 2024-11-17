@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: geco_lib
+Name: geco_explainer
 Version: 0.1.0
 Summary: GECo method to explain GNNs.
 Author: Salvatore Calderaro

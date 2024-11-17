@@ -1,8 +1,0 @@
-LICENSE.txt
-README.md
-setup.py
-geco_lib.egg-info/PKG-INFO
-geco_lib.egg-info/SOURCES.txt
-geco_lib.egg-info/dependency_links.txt
-geco_lib.egg-info/requires.txt
-geco_lib.egg-info/top_level.txt

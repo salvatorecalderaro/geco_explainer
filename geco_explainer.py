@@ -6,6 +6,8 @@ from cdlib.algorithms import greedy_modularity
 import torch.nn as nn
 import matplotlib.pyplot as plt
 from cdlib import viz
+from matplotlib.lines import Line2D
+import matplotlib.cm as cm
 
 options = {
     'node_color': 'orange',
@@ -49,11 +51,19 @@ class GECo:
             pred=np.argmax(probs)
         return pred,probs
     
-    def visualize_results(self,graph,communities,explenation):
+    def visualize_results(self,graph,communities,comm_prob,explenation):
+        colors=cm.get_cmap('viridis', len(comm_prob))
         g = to_networkx(graph, to_undirected=True)
         position = nx.spring_layout(g)
-        viz.plot_network_highlighted_clusters(g,communities, position,node_size=50)
+        viz.plot_network_highlighted_clusters(g,communities, position,node_size=50,cmap="viridis")
         plt.title("Detected communities")
+        
+        custom_legend = [
+        Line2D([0], [0], marker='o', color='w',
+           markerfacecolor=colors(i), markersize=10, label=f'Value: {val[1]:.4f}')
+            for i, val in enumerate(comm_prob)
+        ]
+        plt.legend(handles=custom_legend, loc="best")
         plt.tight_layout()
         plt.show()
         
@@ -66,7 +76,7 @@ class GECo:
                 
 
     
-    def explain(self,graph,pred,visualize):
+    def explain(self,graph,pred,visualize,verbose=False):
         comm_prob=[]
         comms = self.find_communities(graph)
         communities=comms.communities
@@ -77,12 +87,18 @@ class GECo:
         
         tau = np.mean([p[1] for p in comm_prob], dtype=np.float64)
         
-        comm_prob.sort(key=lambda x: x[1], reverse=True)
         exp = [node for c, prob in comm_prob if prob >= tau for node in c]
         
-
         if visualize:
-            self.visualize_results(graph,comms,exp)
+            self.visualize_results(graph,comms,comm_prob,exp)
+        
+        if verbose:
+            comm_prob.sort(key=lambda x: x[1], reverse=True)
+            print(f"Tau {tau}")
+            
+            for i,c in enumerate(comm_prob,start=1):
+                print(f"{i}. Community {c[0]} ({len(c[0])} nodes) - Probability: {c[1]:.4f}")
+        
         
         return exp
 

@@ -1,6 +1,0 @@
-networkx
-torch
-numpy
-cdlib
-torch_geometric
-matplotlib
