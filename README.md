@@ -1,6 +1,8 @@
 # GECo
 
-`geco_lib` is a Python library that provides an implementation of the `GECo` for explaining graph neural network predictions using leveraging community subgraphs.
+`geco-explainer` is a Python library that provides an implementation of the `GECo` for explaining graph neural network predictions using leveraging community subgraphs.
+
+![geci](images/geco.png)
 
 ## Installation
 
