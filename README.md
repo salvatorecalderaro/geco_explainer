@@ -12,6 +12,8 @@ You can install `geco-explainer` via pip:
  pip install geco-explainer
 ```
 
+[![PyPI Downloads](https://static.pepy.tech/badge/geco-explainer)](https://pepy.tech/projects/geco-explainer)
+
 If you use this algorithm, please cite:
 ```
 @misc{calderaro2024gecoalgorithmgraphneural,
