@@ -44,3 +44,24 @@ pip install geco_explainer
 You can try out **GECo Explainer** using our interactive Jupyter example:
 
 👉 [View `GECo_example.ipynb`](./example.ipynb)
+
+
+## Citation
+
+If you use GlioGraphSeg in your research, please cite the following paper:
+```
+@article{calderaro2024geco,
+  title={The GECo algorithm for Graph Neural Networks Explanation},
+  author={Calderaro, Salvatore and Amato, Domenico and Lo Bosco, Giosu{\`e} and Rizzo, Riccardo and Vella, Filippo},
+  journal={arXiv preprint arXiv:2411.11391},
+  year={2024}
+}
+```
+
+> [DOI link](https://arxiv.org/abs/2411.11391)
+
+---
+
+## Contact
+
+For questions or collaborations, contact: [salvatore.calderaro01@unipa.it](mailto:salvatore.calderaro01@unipa.it)
