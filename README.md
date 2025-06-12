@@ -5,7 +5,7 @@
 <h1 align="center">GECo Explainer</h1>
 
 <p align="center">
-  A community-based subgraph search explainer for Graph Neural Networks.
+  A community-based  explainer for Graph Neural Networks.
 </p>
 
 ---
