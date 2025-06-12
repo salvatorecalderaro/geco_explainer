@@ -2,7 +2,7 @@
 
 # GECo Explainer
 
-A community-based subgraph search explainer for Graph Neural Networks.
+A community-based explainer for Graph Neural Networks.
 
 ---
 
