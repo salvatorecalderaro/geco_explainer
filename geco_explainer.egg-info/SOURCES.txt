@@ -1,6 +1,8 @@
 LICENSE.txt
 README.md
 setup.py
+geco_explainer/__init__.py
+geco_explainer/geco_explainer.py
 geco_explainer.egg-info/PKG-INFO
 geco_explainer.egg-info/SOURCES.txt
 geco_explainer.egg-info/dependency_links.txt

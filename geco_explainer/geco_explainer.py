@@ -95,7 +95,6 @@ class GECo:
         if verbose:
             comm_prob.sort(key=lambda x: x[1], reverse=True)
             print(f"Tau {tau}")
-            
             for i,c in enumerate(comm_prob,start=1):
                 print(f"{i}. Community {c[0]} ({len(c[0])} nodes) - Probability: {c[1]:.4f}")
         

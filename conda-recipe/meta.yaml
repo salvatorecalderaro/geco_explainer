@@ -1,0 +1,23 @@
+package:
+  name: geco-explainer   # Conda prefers dashes instead of underscores
+  version: "0.2.1"
+
+source:
+  path: ../
+
+build:
+  noarch: python
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed"
+
+requirements:
+  build:
+    - python
+    - pip
+  run:
+    - python
+
+about:
+  home: "https://pypi.org/project/geco-explainer/"
+  license: MIT
+  summary: "GECo method to explain GNNs"
