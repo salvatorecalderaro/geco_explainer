@@ -1,8 +1,12 @@
-![GECo Logo](GECo_logo.png)
+<p align="center">
+  <img src="GECo_logo.png" alt="GECo Logo" width="200"/>
+</p>
 
-# GECo Explainer
+<h1 align="center">GECo Explainer</h1>
 
-A community-based subgraph search explainer for Graph Neural Networks.
+<p align="center">
+  A community-based subgraph search explainer for Graph Neural Networks.
+</p>
 
 ---
 
