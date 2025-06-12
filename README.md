@@ -1,3 +1,5 @@
+![GECo Logo](GECo_logo,png)
+
 # GECo Explainer
 
 A community-based subgraph search explainer for Graph Neural Networks.
