@@ -48,7 +48,7 @@ You can try out **GECo Explainer** using our interactive Jupyter example:
 
 ## Citation
 
-If you use GlioGraphSeg in your research, please cite the following paper:
+If you use GECo in your research, please cite the following paper:
 ```
 @article{calderaro2024geco,
   title={The GECo algorithm for Graph Neural Networks Explanation},
