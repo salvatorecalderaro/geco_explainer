@@ -36,7 +36,7 @@ You can also set up a Conda environment and install via pip:
 ```bash
 conda create -n geco python=3.10
 conda activate geco
-pip install geco_explainer
+pip install geco-explainer
 ```
 
 ## 📘 Example Usage (Jupyter Notebook)
