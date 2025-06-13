@@ -19,7 +19,7 @@ A community-based explainer for Graph Neural Networks.
 Install GECo Explainer from PyPI:
 
 ```bash
-pip install geco_explainer
+pip install geco-explainer
 ```
 
 ## 🐍 Conda Installation
