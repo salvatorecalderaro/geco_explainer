@@ -23,7 +23,7 @@ pip install geco-explainer
 ```
 ---
 ## 🐍 Conda Status
-https://anaconda.org/salvatorecalderaro/geco-explainer/badges/version.svg
+[![Condaversion]https://anaconda.org/salvatorecalderaro/geco-explainer/badges/version.svg
 
 
 ## 🐍 Conda Installation
