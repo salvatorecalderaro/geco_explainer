@@ -22,9 +22,9 @@ Install GECo Explainer from PyPI:
 pip install geco-explainer
 ```
 ---
-## 🐍 Conda Status
-[![Conda version](https://anaconda.org/salvatorecalderaro/geco-explainer/badges/version.svg)
 
+## 🐍 Conda Status
+[![Downloads](https://pepy.tech/badge/geco_explainer)](https://pepy.tech/project/geco_explainer)
 
 
 ## 🐍 Conda Installation
