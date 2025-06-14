@@ -24,8 +24,12 @@ pip install geco-explainer
 ---
 
 ## 🐍 Conda Status
-[![Downloads](https://pepy.tech/badge/geco_explainer)](https://pepy.tech/project/geco_explainer)
-
+[![Anaconda-Server Badge](https://anaconda.org/salvatorecalderaro/geco-explainer/badges/version.svg)](https://anaconda.org/salvatorecalderaro/geco-explainer)
+[![Anaconda-Server Badge](https://anaconda.org/salvatorecalderaro/geco-explainer/badges/latest_release_date.svg)](https://anaconda.org/salvatorecalderaro/geco-explainer)
+[![Anaconda-Server Badge](https://anaconda.org/salvatorecalderaro/geco-explainer/badges/latest_release_relative_date.svg)](https://anaconda.org/salvatorecalderaro/geco-explainer)
+[![Anaconda-Server Badge](https://anaconda.org/salvatorecalderaro/geco-explainer/badges/platforms.svg)](https://anaconda.org/salvatorecalderaro/geco-explainer)
+[![Anaconda-Server Badge](https://anaconda.org/salvatorecalderaro/geco-explainer/badges/license.svg)](https://anaconda.org/salvatorecalderaro/geco-explainer)
+[![Anaconda-Server Badge](https://anaconda.org/salvatorecalderaro/geco-explainer/badges/downloads.svg)](https://anaconda.org/salvatorecalderaro/geco-explainer)
 
 ## 🐍 Conda Installation
 
