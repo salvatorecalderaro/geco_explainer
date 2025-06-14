@@ -47,14 +47,14 @@ conda create -n geco python=3.10
 conda activate geco
 pip install geco-explainer
 ```
-
+---
 ## 📘 Example Usage (Jupyter Notebook)
 
 You can try out **GECo Explainer** using our interactive Jupyter example:
 
 👉 [View `GECo_example.ipynb`](./example.ipynb)
 
-
+---
 ## Citation
 
 If you use GECo in your research, please cite the following paper:
