@@ -1,31 +1,3 @@
-Metadata-Version: 2.4
-Name: geco_explainer
-Version: 0.2.3
-Summary: GECo method to explain GNNs.
-Author: Salvatore Calderaro
-Author-email: salvatore.calderaro01@unipa.it
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
-Requires-Python: >=3.6
-Description-Content-Type: text/markdown
-License-File: LICENSE.txt
-Requires-Dist: networkx
-Requires-Dist: torch
-Requires-Dist: numpy
-Requires-Dist: cdlib
-Requires-Dist: torch_geometric
-Requires-Dist: matplotlib
-Dynamic: author
-Dynamic: author-email
-Dynamic: classifier
-Dynamic: description
-Dynamic: description-content-type
-Dynamic: license-file
-Dynamic: requires-dist
-Dynamic: requires-python
-Dynamic: summary
-
 # GECo Explainer
 
 A community-based explainer for Graph Neural Networks.
