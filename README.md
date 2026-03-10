@@ -1,4 +1,4 @@
-![GECo Logo](GECO_logo.png)
+![GECo Logo](geco_logo.png)
 
 # GECo Explainer
 
