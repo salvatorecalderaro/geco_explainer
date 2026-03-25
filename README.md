@@ -59,20 +59,15 @@ You can try out **GECo Explainer** using our interactive Jupyter example:
 
 If you use GECo in your research, please cite the following paper:
 ```
-@Article{amato2026geco,
-author={Amato, Domenico
-and Calderaro, Salvatore
-and Lo Bosco, Giosu{\`e}
-and Rizzo, Riccardo
-and Vella, Filippo},
-title={GECo: a community-based graph neural network explainer},
-journal={Computing},
-year={2026},
-month={Mar},
-day={21},
-volume={108},
-number={4},
-pages={55},
+@article{amato2026geco,
+  title={GECo: a community-based graph neural network explainer},
+  author={Amato, Domenico and Calderaro, Salvatore and Lo Bosco, Giosu{\`e} and Rizzo, Riccardo and Vella, Filippo},
+  journal={Computing},
+  volume={108},
+  number={4},
+  pages={55},
+  year={2026},
+  publisher={Springer}
 }
 
 ```
