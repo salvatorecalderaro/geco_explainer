@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: geco_explainer
-Version: 0.2.3
+Version: 0.2.4
 Summary: GECo method to explain GNNs.
 Author: Salvatore Calderaro
 Author-email: salvatore.calderaro01@unipa.it
@@ -79,15 +79,19 @@ pip install geco-explainer
 
 If you use GECo in your research, please cite the following paper:
 ```
-@article{calderaro2024geco,
-  title={The GECo algorithm for Graph Neural Networks Explanation},
-  author={Calderaro, Salvatore and Amato, Domenico and Lo Bosco, Giosu{\`e} and Rizzo, Riccardo and Vella, Filippo},
-  journal={arXiv preprint arXiv:2411.11391},
-  year={2024}
+@article{amato2026geco,
+  title={GECo: a community-based graph neural network explainer},
+  author={Amato, Domenico and Calderaro, Salvatore and Lo Bosco, Giosu{\`e} and Rizzo, Riccardo and Vella, Filippo},
+  journal={Computing},
+  volume={108},
+  number={4},
+  pages={55},
+  year={2026},
+  publisher={Springer}
 }
 ```
 
-> [DOI link](https://arxiv.org/abs/2411.11391)
+> [DOI link](https://doi.org/10.1007/s00607-026-01642-z)
 
 ---
 
