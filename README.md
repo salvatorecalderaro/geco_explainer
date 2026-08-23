@@ -57,24 +57,35 @@ You can try out **GECo Explainer** using our interactive Jupyter example:
 ---
 ## Citation
 
-If you use GECo in your research, please cite the following paper:
-```
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs00607--026--01642--z-blue)](https://doi.org/10.1007/s00607-026-01642-z)
+
+If you use **GECo** in your research, please cite:
+
+> Amato, D., Calderaro, S., Lo Bosco, G., Rizzo, R., & Vella, F. (2026).  
+> GECo: a community-based graph neural network explainer.  
+> *Computing*, 108(4), 55.  
+
+<details>
+<summary><b>BibTeX</b></summary>
+
+```bibtex
 @article{amato2026geco,
   title={GECo: a community-based graph neural network explainer},
-  author={Amato, Domenico and Calderaro, Salvatore and Lo Bosco, Giosu{\`e} and Rizzo, Riccardo and Vella, Filippo},
+  author={Amato, Domenico and
+          Calderaro, Salvatore and
+          Lo Bosco, Giosu{\'e} and
+          Rizzo, Riccardo and
+          Vella, Filippo},
   journal={Computing},
   volume={108},
   number={4},
   pages={55},
   year={2026},
-  publisher={Springer}
+  publisher={Springer},
+  doi={10.1007/s00607-026-01642-z},
+  url={https://doi.org/10.1007/s00607-026-01642-z}
 }
-
 ```
-
-> [DOI link](https://doi.org/10.1007/s00607-026-01642-z)
-
----
 
 ## Contact
 
